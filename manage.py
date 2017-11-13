@@ -7,6 +7,7 @@ manager=Manager(app)
 
 #数据库迁移的关于
 #这儿被修改了
+#第二次被修改
 migrate=Migrate(app,db)
 manager.add_command('db',MigrateCommand)
 @manager.command
