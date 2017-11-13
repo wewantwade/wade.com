@@ -1,5 +1,5 @@
 from flask_script import Manager
-
+修改了之后的仓库哈哈哈
 from app import create_app, db
 from flask_migrate import Migrate,MigrateCommand,upgrade#数据库迁移引入
 app=create_app()
